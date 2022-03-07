@@ -83,10 +83,10 @@ if __name__ == '__main__':
                     for img in os.listdir(get_detection_folder()):
                         st.image(str(Path(f'{get_detection_folder()}') / img))
 
-                    st.balloons()
+                    #st.balloons()
             else:
                 with st.spinner(text='Preparing Video'):
                     for vid in os.listdir(get_detection_folder()):
                         st.video(str(Path(f'{get_detection_folder()}') / vid))
 
-                    st.balloons()
+                    #st.balloons()
